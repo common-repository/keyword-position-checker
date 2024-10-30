@@ -1,0 +1,74 @@
+#kw-pos-ck-wrapper {
+    overflow: hidden;
+}
+
+#kw-pos-ck-wrapper p {
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0px !important;
+}
+
+#kw-pos-ck-wrapper .error {
+    font-size: 11px;
+    color: #ee0000;
+}
+
+#kw-pos-ck-wrapper .prlink {
+    font-size: 11px;
+    color: #e7e7e7;
+    float: right;
+}
+
+#kw-pos-ck-wrapper p input,
+#kw-pos-ck-wrapper p textarea,
+#kw-pos-ck-wrapper p select {
+    width: 99%;
+    border: 1px solid #4E8E00;
+}
+
+#kw-pos-ck-wrapper p input.button {
+    width: auto !important;
+    padding: 3px 5px;
+}
+
+#kw-pos-ck-wrapper label {
+    display: block;
+    font-weight: bold;
+}
+
+#pos {
+    background: none repeat scroll 0 0 #f2f2f2;
+    color: green;
+    font-weight: bold !important;
+    padding: 5px !important;
+}
+
+#kwposchecker {
+    width: 98.5%;
+}
+
+#kwposchecker,
+#kwposchecker tr,
+#kwposchecker td,
+#kwposchecker th {
+    border: 1px solid #d4d4d4;
+    border-collapse: collapse;
+}
+
+#kwposchecker th {
+    color: #000;
+    font-weight: bold;
+}
+
+#kwposchecker td.pos {
+    text-align: center;
+}
+
+#kwposchecker td.kw {
+    text-indent: 15px;
+}
+
+#kwposchecker .error {
+    text-align: center !important;
+    color: #ff0000;
+}

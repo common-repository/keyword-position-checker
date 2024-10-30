@@ -1,0 +1,45 @@
+.kpc-wrap table,
+.kpc-wrap tr,
+.kpc-wrap th,
+.kpc-wrap td {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.kpc-wrap a {
+    text-decoration: none;
+}
+
+.kpc-wrap th,
+.kpc-wrap td {
+    padding: 5px 20px;
+}
+
+.kpc-wrap form {
+    border-bottom: 1px solid #ddd;
+    margin: 0px 0px 10px;
+}
+
+.kpc-wrap form label {
+    display: block;
+    width: 90px;
+    float: left;
+}
+
+.kpc-wrap form span {
+    float: none;
+}
+
+.kpc-wrap form input,
+.kpc-wrap form textarea {
+    width: 250px;
+}
+
+.kpc-wrap form input.button-primary {
+    width: auto;
+}
+
+.kpc-wrap a.kpc-add-new {
+    margin: 0px 0px 10px 0px !important;
+    display: inline-block;
+}
